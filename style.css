@@ -51,9 +51,10 @@ body {
   .quoat{
     text-align:center;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 24px;
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     margin-right: 40px;
   }
   #rtitle{
@@ -96,4 +97,22 @@ body {
 #ptitle{
     color:white
 }
- 
+#fac{
+  color: rgb(0, 162, 255);
+  margin-top: 50px;
+  font-size: 40px;
+}
+#inst{
+  color: rgb(243, 102, 201);
+  margin-top: 50px;
+  font-size: 40px;
+}
+#phone{
+  margin-top: 50px;
+  font-size: 40px;
+
+}
+.contact-section{
+  font-size: 40px;
+  margin-top: 50px;
+}
