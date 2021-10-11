@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <div class="storename">
         <div id="sitename"> Time To Trust</div>
      </div>
+     
         <div class="topnav">
          <a class="active" href="./index.html" >Home</a>
          <a href="./rolex.html">Rolex</a>
@@ -23,16 +25,22 @@
       
          </div>
        </div>
-     <div class="contact-section">Do not hesitate to contact us</div>
-
-     <div class="social">
-         <div class="social-info">
-            
-        <a id="fac" href="https://www.facebook.com/aziz.ghattas.397" ><i class="fab fa-facebook" ></i>Time To Trust</a>
-        <div id="inst"><i class="fab fa-instagram"></i> @Time To Trust</div>
-        <div id="phone"><i class="fas fa-phone"></i></i>+216 58 718 215 </div> 
+       <div class='min'>
+        <label for="min-price">min price:</label>
+         <input type="text" id="min" name="name" required
+       minlength="4" maxlength="8" >
     </div>
- </div>
-     
+    <div class='max'>
+       <label for="max-price">max price:</label>
+       <input type="text" id="max" name="name" required
+     minlength="4" maxlength="8" >
+    </div>
+    <button onclick="filterByPrice()" class='selectPrice'>filter</button>
+
+
+    <div class="container"></div>
+   
+
+    <script src="./main.js"></script>
 </body>
 </html>
